@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Verilog/Adder/adder.xst" -ofn "C:/Users/cqx/Desktop/Verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Verilog/Adder/adder.xst" -ofn "C:/Users/cqx/Desktop/Verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Verilog/Adder/adder.xst" -ofn "C:/Users/cqx/Desktop/Verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Verilog/Adder/adder.xst" -ofn "C:/Users/cqx/Desktop/Verilog/Adder/adder.syr" 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/cqx/Desktop/Assignment/Computer_Organization/preproduction_phase/Practice/verilog_practice/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cqx/Desktop/Assignment/Computer_Organization/preproduction_phase/Practice/verilog_practice/xst"
+elaborate
+-ifn adder.prj
+-ifmt mixed

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 117: Port <arg fmt="%s" index="1">ALUOp</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 166: Port <arg fmt="%s" index="1">EXTOp</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 192: Port <arg fmt="%s" index="1">ALUSrc</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 216: Port <arg fmt="%s" index="1">ALUSrc</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\IM.v" Line 36: Signal &lt;<arg fmt="%s" index="1">im</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 29: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 30: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 31: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CONTROL.v" Line 67: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 117: Assignment to <arg fmt="%s" index="1">RegDstD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 118: Assignment to <arg fmt="%s" index="1">MemWriteD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 167: Assignment to <arg fmt="%s" index="1">MemWriteE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 217: Assignment to <arg fmt="%s" index="1">MemWriteW</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 53: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 55: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 61: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 64: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">79</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_mpcin</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">81</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_pc</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">83</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_im</arg>&gt; of block &lt;<arg fmt="%s" index="4">IM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">87</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_D_IR</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">88</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_D_PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">104</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_gpr</arg>&gt; of block &lt;<arg fmt="%s" index="4">GPR</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">107</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_ext</arg>&gt; of block &lt;<arg fmt="%s" index="4">EXT</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">109</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_mf_cmp_a</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">111</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_mf_cmp_b</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">113</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_ms_cmp_b</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">115</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_cmp</arg>&gt; of block &lt;<arg fmt="%s" index="4">CMP</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">117</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_controller</arg>&gt; of block &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">124</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_npc</arg>&gt; of block &lt;<arg fmt="%s" index="4">NPC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">133</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_E_IR</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">134</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_E_PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">135</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_E_BusA</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">136</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_E_BusB</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">137</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_E_Ext</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">146</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_mf_alu_a</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">148</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_ms_alu_a</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">150</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_mf_alu_b</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">152</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_ms1_alu_b</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">157</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">159</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_md</arg>&gt; of block &lt;<arg fmt="%s" index="4">MD</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">166</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_controller</arg>&gt; of block &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">173</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_M_IR</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">174</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_M_PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">175</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_M_EO</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">176</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_M_WM</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">187</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_mf_dm_wd</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">189</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_dm</arg>&gt; of block &lt;<arg fmt="%s" index="4">DM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">192</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_controller</arg>&gt; of block &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">198</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_W_IR</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">199</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_W_PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">200</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_W_DO</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">201</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_W_AO</arg>&gt; of block &lt;<arg fmt="%s" index="4">PREG</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">210</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">W_dmext</arg>&gt; of block &lt;<arg fmt="%s" index="4">DMEXT</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">212</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">W_ms_pc</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">214</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">W_ms_wb</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX32_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">216</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">W_controller</arg>&gt; of block &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v</arg>&quot; line <arg fmt="%d" index="2">222</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">hazard</arg>&gt; of block &lt;<arg fmt="%s" index="4">HAZARD</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>

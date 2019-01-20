@@ -1,0 +1,84 @@
+ISim log file
+Running: C:\Users\cqx\Desktop\Assignment\Computer_Organization\p7\P7_my\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/cqx/Desktop/Assignment/Computer_Organization/p7/P7_my/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 1 <= 00007f00
+                  55@00003004: $ 2 <= 00007f10
+                  65@00003008: $ 3 <= 0000ff11
+                  85@00003010: $ 4 <= 00000005
+                 105@00003018: $ 5 <= 00000009
+# restart
+# run 10ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 10ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+                  45@00003000: $ 1 <= 00007f00
+# run 10ns
+                  55@00003004: $ 2 <= 00007f10
+# run 10ns
+                  65@00003008: $ 3 <= 0000ff11
+# run 10ns
+# run 10ns
+                  85@00003010: $ 4 <= 00000005
+# run 10ns
+# run 10ns
+                 105@00003018: $ 5 <= 00000009
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# restart
+# run 200ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 1 <= 00007f00
+                  55@00003004: $ 2 <= 00007f10
+                  65@00003008: $ 3 <= 0000ff11
+                  85@00003010: $ 4 <= 00000005
+                 105@00003018: $ 5 <= 00000009
+# run 10ns
+# run 10ns
+# run 10ns
+# run 10ns
+# restart
+# run 200ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 1 <= 00007f00
+                  55@00003004: $ 2 <= 00007f10
+                  65@00003008: $ 3 <= 0000ff11
+                  85@00003010: $ 4 <= 00000005
+                 105@00003018: $ 5 <= 00000009
+# run 10ns
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 1 <= 00007f00
+                  55@00003004: $ 2 <= 00007f10
+                  65@00003008: $ 3 <= 0000ff11
+                  85@00003010: $ 4 <= 00000005
+                 105@00003018: $ 5 <= 00000009

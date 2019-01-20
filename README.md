@@ -1,2 +1,16 @@
 # BUAA-Computer-Organization
-Source Code for Course Computer Organization in Beijing University of Aeronautics and Astronautics
+
+这段代码记录了我大二上的一段心路历程，
+代码P0-P7凝聚了我大量的心血、老师的精华和学姐的经验。
+虽然最终我没能通过P7的测试，也未取得P8的测试资格，
+但我依然收获很大。
+希望阅读此代码的后人，
+能够从中获得思路上的启发，
+并进行改进，bug修复，
+若能有细微的帮助，
+我将深感欣慰。
+
+陈麒先
+
+* 【注意】
+工程源代码由作者独立完成。抄袭行为在任何情况下都是不能容忍的(COPY is strictly prohibited under any circumstances)！转载或引用须征得作者本人同意，并注明出处！由于拷贝本代码而带来的一切严重后果(如不能通过课程考核等)，由抄袭者本人自行承担！勿谓言之不预！

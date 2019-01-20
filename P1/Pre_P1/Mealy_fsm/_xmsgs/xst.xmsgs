@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Xst" num="899" delta="new" >&quot;<arg fmt="%s" index="1">fsm.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>: The logic for &lt;<arg fmt="%s" index="3">out</arg>&gt; does not match a known FF or Latch template. The description style you are using to describe a register or latch is not supported in the current software release.
+</msg>
+
+<msg type="error" file="Xst" num="899" delta="new" >&quot;<arg fmt="%s" index="1">fsm.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>: The logic for &lt;<arg fmt="%s" index="3">state</arg>&gt; does not match a known FF or Latch template. The description style you are using to describe a register or latch is not supported in the current software release.
+</msg>
+
+</messages>
+

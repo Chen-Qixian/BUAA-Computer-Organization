@@ -1,0 +1,28 @@
+Command line:
+   DATAPATH_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49235
+
+Mon Nov 13 09:47:34 2017
+
+
+ Elaboration Time: 0.187201 sec
+
+ Current Memory Usage: 667.603 Meg
+
+ Total Signals          : 88
+ Total Nets             : 516
+ Total Signal Drivers   : 37
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 47
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 67268
+
+ Total Simulation Time: 0.702004 sec
+
+ Current Memory Usage: 667.603 Meg
+
+Mon Nov 13 09:50:42 2017
+

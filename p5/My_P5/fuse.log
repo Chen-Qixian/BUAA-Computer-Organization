@@ -1,0 +1,49 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips_tb_isim_beh.exe -prj C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/PREG.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/PC.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/NPC.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/MUX.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/IM.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/HAZARD.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/GPR.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/EXT.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/DM.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/CONTROL.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/CMP.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/ALU.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips.v" into library work
+Analyzing Verilog file "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips.v" Line 113: Port ALUOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips.v" Line 148: Port EXTOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips.v" Line 182: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips.v" Line 209: Port ALUSrc is not connected to this instance
+Completed static elaboration
+Compiling module MUX32_2
+Compiling module PC
+Compiling module IM
+Compiling module PREG
+Compiling module GPR
+Compiling module EXT
+Compiling module MUX32_3
+Compiling module CMP
+Compiling module CONTROL
+Compiling module NPC
+Compiling module PREG1
+Compiling module ALU
+Compiling module DM
+Compiling module HAZARD
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 17 Verilog Units
+Built simulation executable C:/Users/cqx/Desktop/Assignment/Computer_Organization/p5/My_P5/mips_tb_isim_beh.exe
+Fuse Memory Usage: 29288 KB
+Fuse CPU Usage: 1029 ms

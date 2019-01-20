@@ -1,0 +1,52 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips_tb_isim_beh.exe -prj D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/PREG.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/PC.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/NPC.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/MUX.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/MD.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/IM.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/HAZARD.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/GPR.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/EXT.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/DMEXT.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/DM.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/CONTROL.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/CMP.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/ALU.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips.v" into library work
+Analyzing Verilog file "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips.v" Line 117: Port ALUOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips.v" Line 166: Port EXTOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips.v" Line 192: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips.v" Line 216: Port ALUSrc is not connected to this instance
+Completed static elaboration
+Compiling module MUX32_2
+Compiling module PC
+Compiling module IM
+Compiling module PREG
+Compiling module GPR
+Compiling module EXT
+Compiling module MUX32_3
+Compiling module CMP
+Compiling module CONTROL
+Compiling module NPC
+Compiling module ALU
+Compiling module MD
+Compiling module DM
+Compiling module DMEXT
+Compiling module HAZARD
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips_tb_isim_beh.exe
+Fuse Memory Usage: 31280 KB
+Fuse CPU Usage: 1700 ms

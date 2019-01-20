@@ -1,0 +1,16 @@
+ISim log file
+Running: D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/My_BUAA/2017_Fall/Assignment/Computer_Organization/p6/P6_final/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 9 <= 00000003
+                  55@00003004: $ 1 <= ffff0000
+                  65@00003008: $ 1 <= fffffffe
+                  75@0000300c: $10 <= fffffffe
+                 195@00003014: $15 <= 00000001
+                 205@00003018: $24 <= ffffffff

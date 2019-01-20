@@ -1,0 +1,238 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx150-2-fgg484
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\PREG.v" into library work
+Parsing module <PREG>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\MUX.v" into library work
+Parsing module <MUX32_2>.
+Parsing module <MUX32_3>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\MD.v" into library work
+Parsing module <MD>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" into library work
+Parsing module <HAZARD>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\GPR.v" into library work
+Parsing module <GPR>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\DMEXT.v" into library work
+Parsing module <DMEXT>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CONTROL.v" into library work
+Parsing module <CONTROL>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 117: Port ALUOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 166: Port EXTOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 192: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 216: Port ALUSrc is not connected to this instance
+
+Elaborating module <mips>.
+
+Elaborating module <MUX32_2>.
+
+Elaborating module <PC>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\IM.v" Line 36: Signal <im> in initial block is partially initialized.
+
+Elaborating module <PREG>.
+
+Elaborating module <GPR>.
+"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\GPR.v" Line 57. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <EXT>.
+
+Elaborating module <MUX32_3>.
+
+Elaborating module <CMP>.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 29: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CMP.v" Line 31: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <CONTROL>.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\CONTROL.v" Line 67: Result of 5-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 117: Assignment to RegDstD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 118: Assignment to MemWriteD ignored, since the identifier is never used
+
+Elaborating module <NPC>.
+
+Elaborating module <ALU>.
+
+Elaborating module <MD>.
+WARNING:HDLCompiler:1127 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 167: Assignment to MemWriteE ignored, since the identifier is never used
+
+Elaborating module <DM>.
+"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\DM.v" Line 56. $display  32'b................................ 32'b................................ 32'b................................
+"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\DM.v" Line 65. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\DM.v" Line 88. $display  32'b................................ 32'b..............................00 32'b................................
+
+Elaborating module <DMEXT>.
+WARNING:HDLCompiler:1127 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" Line 217: Assignment to MemWriteW ignored, since the identifier is never used
+
+Elaborating module <HAZARD>.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 53: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 55: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 58: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 61: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\HAZARD.v" Line 64: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 79. All outputs of instance <F_mpcin> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 81. All outputs of instance <F_pc> of block <PC> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 83. All outputs of instance <F_im> of block <IM> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 87. All outputs of instance <F_D_IR> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 88. All outputs of instance <F_D_PC> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 104. All outputs of instance <D_gpr> of block <GPR> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 107. All outputs of instance <D_ext> of block <EXT> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 109. All outputs of instance <D_mf_cmp_a> of block <MUX32_3> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 111. All outputs of instance <D_mf_cmp_b> of block <MUX32_3> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 113. All outputs of instance <D_ms_cmp_b> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 115. All outputs of instance <D_cmp> of block <CMP> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 117. All outputs of instance <D_controller> of block <CONTROL> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 124. All outputs of instance <D_npc> of block <NPC> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 133. All outputs of instance <D_E_IR> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 134. All outputs of instance <D_E_PC> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 135. All outputs of instance <D_E_BusA> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 136. All outputs of instance <D_E_BusB> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 137. All outputs of instance <D_E_Ext> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 146. All outputs of instance <E_mf_alu_a> of block <MUX32_3> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 148. All outputs of instance <E_ms_alu_a> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 150. All outputs of instance <E_mf_alu_b> of block <MUX32_3> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 152. All outputs of instance <E_ms1_alu_b> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 157. All outputs of instance <E_alu> of block <ALU> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 159. All outputs of instance <E_md> of block <MD> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 166. All outputs of instance <E_controller> of block <CONTROL> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 173. All outputs of instance <E_M_IR> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 174. All outputs of instance <E_M_PC> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 175. All outputs of instance <E_M_EO> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 176. All outputs of instance <E_M_WM> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 187. All outputs of instance <M_mf_dm_wd> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 189. All outputs of instance <M_dm> of block <DM> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 192. All outputs of instance <M_controller> of block <CONTROL> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 198. All outputs of instance <M_W_IR> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 199. All outputs of instance <M_W_PC> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 200. All outputs of instance <M_W_DO> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 201. All outputs of instance <M_W_AO> of block <PREG> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 210. All outputs of instance <W_dmext> of block <DMEXT> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 212. All outputs of instance <W_ms_pc> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 214. All outputs of instance <W_ms_wb> of block <MUX32_2> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 216. All outputs of instance <W_controller> of block <CONTROL> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\My_BUAA\2017_Fall\Assignment\Computer_Organization\p6\P6_final\mips.v" line 222. All outputs of instance <hazard> of block <HAZARD> are unconnected in block <mips>. Underlying logic will be removed.

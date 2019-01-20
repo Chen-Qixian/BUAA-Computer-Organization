@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/cqx/Desktop/Verilog/counter/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cqx/Desktop/Verilog/counter/xst"
+elaborate
+-ifn digital_pipe.prj
+-ifmt mixed

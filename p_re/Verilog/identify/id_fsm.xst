@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/cqx/Desktop/Verilog/identify/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cqx/Desktop/Verilog/identify/xst"
+elaborate
+-ifn id_fsm.prj
+-ifmt mixed

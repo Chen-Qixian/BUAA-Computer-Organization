@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj my_P1 -o C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/gray.tfi -lib work C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1//gray.v -module gray -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

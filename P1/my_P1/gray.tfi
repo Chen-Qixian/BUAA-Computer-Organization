@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+gray instance_name (
+    .Clk(Clk), 
+    .Reset(Reset), 
+    .En(En), 
+    .Output(Output), 
+    .Overflow(Overflow)
+    );
+
+

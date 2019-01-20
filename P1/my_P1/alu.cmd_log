@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/alu.v -lang verilog -prj my_P1 -o alu.spl -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 alu.spl C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/alu.sym 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P0/Comparator/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P0/Comparator/xst"
+elaborate
+-ifn comparator.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/practice_P1/id_fsm.xst" -ofn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/practice_P1/id_fsm.syr" 

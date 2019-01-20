@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/cqx/Desktop/Verilog/pipeline/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/cqx/Desktop/Verilog/pipeline/xst"
+elaborate
+-ifn pipeline.prj
+-ifmt mixed

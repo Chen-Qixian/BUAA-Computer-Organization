@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/practice_P1/gray22_tb_isim_beh.exe" -prj "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/practice_P1/gray22_tb_beh.prj" "work.gray22_tb" "work.glbl" 

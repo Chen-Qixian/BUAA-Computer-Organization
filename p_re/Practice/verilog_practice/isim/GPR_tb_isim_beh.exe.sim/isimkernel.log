@@ -1,0 +1,28 @@
+Command line:
+   GPR_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52569
+
+Thu Oct 26 11:15:10 2017
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 667.591 Meg
+
+ Total Signals          : 24
+ Total Nets             : 223
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 19
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 2593
+
+ Total Simulation Time: 0.234001 sec
+
+ Current Memory Usage: 667.591 Meg
+
+Thu Oct 26 11:15:17 2017
+

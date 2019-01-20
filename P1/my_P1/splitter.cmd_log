@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/splitter.xst" -ofn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/splitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 splitter.ngc splitter.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o splitter_map.ncd splitter.ngd splitter.pcf 
+xst -intstyle ise -ifn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/splitter.xst" -ofn "C:/Users/cqx/Desktop/Assignment/Computer_Organization/P1/my_P1/splitter.syr" 
